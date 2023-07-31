@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Fetch App</title>
+</head>
+<body>
+  <h1>Fetch App:
+   Fill out to get data.
+  </h1>
+  
+  <button id="getData">Get data</button>
+  <button id="getList">Get list</button>
+  <br/><br/>
+  
+  <form id="myForm">
+    <input type="text" name="firstname" id="firstname" value="Name" />
+    <input type="text" name="lastname" id="lastname" value="Surname" />
+    <button id="submitForm">Submit</button>
+  </form>
+  
+  <p id="posts"></p>
+  <p id="message"></p>
+  <p id="greeting"></p>
+  
+  <script>
+    // JavaScript code here...
+    document.getElementById('getData').addEventListener('click', function() {
+      alert('You clicked on "Get data"!');
+    });
+  </script>
+</body>
+</html>
